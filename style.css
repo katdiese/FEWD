@@ -46,3 +46,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {background-color: lightGray;
+}
+div {
+	border: 1px solid black;
+}
+
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+img.logo {
+	padding: 14px;
+}
+
+
+
