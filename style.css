@@ -6,6 +6,10 @@ div {
 	border: 1px solid black;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
@@ -15,15 +19,35 @@ div {
 	height: 70px;
 	margin: 0 auto;
 	padding: 0px 15px;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
 }
 .logo {
   float: left;
+  margin-left: 5em;
+  margin-right: 12em;
 }
 .links > li {
-	float: right;
+	float: left;
 	display: inline-block;
-  padding: 1.5em 1em;
+  padding: 1.75em 0.95em;
 }
+.top-navigation .links > .active {
+  color: #4c5058;
+  font-weight: 600;
+}
+
+a:hover {
+  color: black;
+}
+a.menu_links {
+  cursor: pointer;
+}
+
+
+
 
 
 
