@@ -46,10 +46,26 @@ a:link, a:visited {
   cursor: pointer;
   color: #333333;
 }
+/*introduction section*/
 .introduction {
   background: url(images/first-background-copy.jpg) no-repeat center center fixed;
   height: 45.938rem;
 }
+h1.intro {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+h3.wifi {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+h1.intro, 
+h3.wifi {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
 
 
 
