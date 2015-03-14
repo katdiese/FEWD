@@ -58,7 +58,7 @@ h3.wifi {
   margin-top: 1.25rem;
   font-size: 1.563rem;
 }
-body {
+.introduction {
   color: white;
   text-align: center;
   font-weight: 350;
@@ -81,6 +81,8 @@ button:hover {
   background-color:#CC3E23;
   border-color: #CC3E23;
 }
+/*icon section*/
+
 
 
 
