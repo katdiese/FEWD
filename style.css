@@ -58,26 +58,23 @@ h3.wifi {
   margin-top: 1.25rem;
   font-size: 1.563rem;
 }
-h1.intro, 
-h3.wifi,
-.buttons {
+body {
   color: white;
   text-align: center;
-  font-weight: 300;
+  font-weight: 350;
   font-family: roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-.buttons button {
+.big-button {
   width: 9.688rem;
   background-color: #f15a29;
   border-color: #f15a29;
   text-shadow: none;
   border-radius: 4px;
   padding: 1rem 1.5rem;
-  color: white;
   font-size: 1.125rem;
   margin-top: 1em;
-
+  color: white;
 }
 button:hover {
   cursor: pointer;
