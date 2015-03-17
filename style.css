@@ -8,6 +8,9 @@ body {
 /* Navigation Section */
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 .top-navigation > .content {
   height: 70px;
@@ -97,7 +100,6 @@ button:hover {
   margin-top: 3em;
   font-weight: 300;
   text-align: center;
-  -webkit-font-smoothing: antialiased;
 
 }
 .cases .devices > li {
@@ -108,7 +110,7 @@ button:hover {
   max-width: 231px;
 }
 .cases .devices h3 {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.563rem;
   margin: 2.5rem 0px 1.875rem;
 }
