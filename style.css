@@ -50,7 +50,7 @@ a:link, a:visited {
 
 /*introduction section*/
 .introduction {
-  background: url(css/../images/first-background-copy.jpg);
+  background: url(images/first-background.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover; 
