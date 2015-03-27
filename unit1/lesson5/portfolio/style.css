@@ -1,0 +1,130 @@
+/*navigation section*/
+nav.top-nav {
+  background-color: #FFFFFF; opacity: 0.75; 
+  height: 4em;
+  position: fixed;
+  width: 100%;
+} 
+.content {
+  max-width: 70%;
+  margin: auto;
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navLinks {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 1.5em;
+}
+.navLinks > li {
+  display: inline;
+  padding: 1em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro  {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('images/top-image.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.masthead-intro {
+  padding: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+.masthead-heading {
+  padding: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  color: #FFFCB1;
+  text-shadow: .02em .05em .001em #BFBD85;
+}
+
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social >li {
+  display: inline-block;
+}
+
+.content-footer >p {
+  color: white;
+}
+
+.introduction-section > p,
+.questions-section > p,
+.content-footer > p, 
+.p-title {
+  /*typography declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  padding: .95em 0 1em;
+  font-family: "Open Sans", "Helvetica Neue", Sans-serif;
+}
+.introduction-section > h1,
+.questions-section > h1 {
+  font-family: "Open Sans", "Helvetica Neue", Sans-serif;
+  font-weight: 700;
+  padding-bottom: .5em;
+  font-size: 1.5em;
+  color: #E34D09;
+}
+
+.questions-section >h2 {
+  /*typography declarations */
+  font-family: "Gentium Book Basic", Georgia, Serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+section >h1 {
+  margin-top: 2em;
+}
+.Projects-section {
+  margin-top: 5em;
+  background-color: #AAADAD;
+  height: 40em;
+}
+.p-title {
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: -0.04em;
+  padding: 1.5em 0 2em;
+  ;
+}
+.projects {
+  max-width: 80%;
+  margin: auto;
+}
+.projects > a {
+  padding: 3em;
+}
+.content-footer {
+  padding: 2em;
+  background-color: #7F7164;
+}
+
+a {
+  text-decoration: none;
+}
+
