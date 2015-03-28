@@ -21,15 +21,26 @@ nav.top-nav {
 }
 .navLinks > li {
   display: inline;
-  padding: 1em;
+  padding: 1em
 }
+@media only screen and (max-width:750px) {
+  .navLinks > li {
+    padding: .25em;
+  }
+}
+@media only screen and (max-width:534px) {
+  .navLinks {
+    font-size: .75em;
+  }
+}
+
 
 .content-footer,
 .masthead-heading,
 .masthead-intro  {
   text-align: center;
 }
-
+/*cover image*/
 .masthead {
   padding: 6em 0;
   background-image: url('images/top-image.jpeg');
@@ -54,7 +65,7 @@ nav.top-nav {
   text-shadow: .02em .05em .001em #BFBD85;
 }
 
-
+/*introduction-section*/
 .introduction-section,
 .location-section,
 .questions-section {
@@ -62,14 +73,6 @@ nav.top-nav {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
-}
-
-.social >li {
-  display: inline-block;
-}
-
-.content-footer >p {
-  color: white;
 }
 
 .introduction-section > p,
@@ -97,9 +100,9 @@ nav.top-nav {
   font-size: 1.2em;
   font-weight: bold;
 }
-section >h1 {
+/*section > h1 {
   margin-top: 2em;
-}
+}*/
 .Projects-section {
   margin-top: 5em;
   background-color: #AAADAD;
@@ -110,7 +113,6 @@ section >h1 {
   font-size: 3em;
   letter-spacing: -0.04em;
   padding: 1.5em 0 2em;
-  ;
 }
 .projects {
   max-width: 80%;
@@ -118,6 +120,14 @@ section >h1 {
 }
 .projects > a {
   padding: 3em;
+}
+
+/*Contacts section*/
+.social >li {
+  display: inline-block;
+}
+.content-footer > p {
+  color: white;
 }
 .content-footer {
   padding: 2em;
