@@ -137,7 +137,7 @@ nav.top-nav {
   .NYT {
     padding-right: 1em;
 }*/
-@media only screen and (max-width:1223px) {
+@media only screen and (max-width:1275px) {
   .proj-links {
     max-width: 384px;
   }
@@ -156,6 +156,7 @@ nav.top-nav {
 .brands {
   max-width: 75%;
   margin: auto;
+  padding-bottom: 10em;
 }
 @media only screen and (max-width:1263px) {
   .brands {
@@ -185,8 +186,17 @@ nav.top-nav {
   padding: 2em;
   background-color: #7F7164;
 }
-
 a {
   text-decoration: none;
 }
+.social a {
+  color: black;
+}
+.fa-github-square:hover,
+.fa-twitter-square:hover,
+.fa-linkedin-square:hover,
+.fa-envelope-square:hover {
+  color: green;
+}
+
 
