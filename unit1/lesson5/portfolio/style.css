@@ -78,7 +78,8 @@ nav.top-nav {
 .introduction-section > p,
 .questions-section > p,
 .content-footer > p, 
-.p-title {
+.p-title,
+.publications {
   /*typography declarations */
   font-weight: 300;
   letter-spacing: 0.05em;
@@ -102,12 +103,14 @@ nav.top-nav {
   font-size: 1.2em;
   font-weight: bold;
 }
+/*projects section*/
 .Projects-section {
   margin-top: 5em;
   background-color: #AAADAD;
   height: 40em;
 }
-.p-title {
+.p-title,
+.publications {
   text-align: center;
   font-size: 3em;
   letter-spacing: -0.04em;
@@ -124,25 +127,53 @@ nav.top-nav {
 }
 .NYT {
   float: left;
-  padding-right: 5.5em;
+  padding-right: 14%;
 }
 .proj-links {
-  border: 1px solid black;
   max-width: 70%;
   margin: auto;
 }
-@media only screen and (max-width: 1222px) {
+/*@media only screen and (max-width: 1222px) {
   .NYT {
     padding-right: 1em;
-}
-@media only screen and (max-width:1119px) {
+}*/
+@media only screen and (max-width:1223px) {
   .proj-links {
     max-width: 384px;
   }
   .Projects-section {
     height: 47em;
   }
+  .NYT {
+    padding-bottom: 2em;
+  }
 }
+/*Publications section*/
+.writing li {
+  display: inline-block;
+  padding: 1em;
+}
+.brands {
+  max-width: 75%;
+  margin: auto;
+}
+@media only screen and (max-width:1263px) {
+  .brands {
+    max-width: 75%;
+  }
+  .writing li {
+    padding: 0
+  }
+}
+@media only screen and (max-width:1135px) {
+  .brands {
+    max-width: 200px;
+  }
+  .writing li {
+  padding: 1em;
+  }
+}
+  
 /*Contacts section*/
 .social >li {
   display: inline-block;
