@@ -19,6 +19,12 @@ nav.top-nav {
   text-align: center;
   padding-top: 1.5em;
 }
+.navLinks a {
+  color: #6B427F;
+}
+.navLinks a:hover {
+  color:#98B239;
+}
 .navLinks > li {
   display: inline;
   padding: 1em
@@ -133,10 +139,6 @@ nav.top-nav {
   max-width: 70%;
   margin: auto;
 }
-/*@media only screen and (max-width: 1222px) {
-  .NYT {
-    padding-right: 1em;
-}*/
 @media only screen and (max-width:1275px) {
   .proj-links {
     max-width: 384px;
@@ -196,7 +198,7 @@ a {
 .fa-twitter-square:hover,
 .fa-linkedin-square:hover,
 .fa-envelope-square:hover {
-  color: green;
+  color: #98B239;
 }
 
 
