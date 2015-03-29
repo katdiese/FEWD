@@ -1,9 +1,9 @@
-/*navigation section*/
-nav.top-nav {
-  background-color: #FFFFFF; opacity: 0.75; 
-  height: 4em;
-  position: fixed;
-  width: 100%;
+a {
+  text-decoration: none;
+  color: #6B427F  
+}
+a:hover {
+  color:#98B239;
 } 
 .content {
   max-width: 70%;
@@ -12,18 +12,19 @@ nav.top-nav {
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
+/*navigation section*/
+nav.top-nav {
+  background-color: #FFFFFF; opacity: 0.75; 
+  height: 4em;
+  position: fixed;
+  width: 100%;
+} 
 .navLinks {
   font-family: sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   padding-top: 1.5em;
-}
-.navLinks a {
-  color: #6B427F;
-}
-.navLinks a:hover {
-  color:#98B239;
 }
 .navLinks > li {
   display: inline;
@@ -79,6 +80,9 @@ nav.top-nav {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
+}
+.introduction-section {
+  padding-top: 5em;
 }
 
 .introduction-section > p,
@@ -187,9 +191,6 @@ nav.top-nav {
 .content-footer {
   padding: 2em;
   background-color: #7F7164;
-}
-a {
-  text-decoration: none;
 }
 .social a {
   color: black;
