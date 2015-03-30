@@ -155,7 +155,33 @@ nav.top-nav {
   }
 }
 /*Publications section*/
-.writing li {
+.pacsafe,
+.ON {
+  float: left;
+}
+.brands {
+  padding: 1em;
+  margin-bottom: 10em;
+}
+.pacsafe {
+  padding-left: 15em;
+}
+@media only screen and (max-width:1116px) {
+  .pacsafe {
+    padding-left: 10em;
+  }
+}
+@media only screen and (max-width:1035px) {
+  .pacsafe {
+    padding-left: 3em;
+  }
+}
+@media only screen and (max-width:500px) {
+  .pacsafe {
+    float: none;
+  }
+}
+/*.writing li {
   display: inline-block;
   padding: 1em;
 }
@@ -180,6 +206,7 @@ nav.top-nav {
   padding: 1em;
   }
 }
+*/
   
 /*Contacts section*/
 .social >li {
